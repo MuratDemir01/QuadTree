@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pro;
+
+/**
+ *
+ * @author Murat's PC
+ */
+public class Pro {
+
+    /*
+      ana sınıf olan bu sınıf grafik penceresini açıp bunu o nesnede incelemizi 
+      sağlıyor
+      @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        pencere page = new pencere();
+        page.setSize(512, 512);
+        page.setVisible(true);
+        
+        
+        
+        
+    }
+    
+}
